@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C9BDF88A17EDAB6B00403760 /* customCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C9BDF88817EDAB6B00403760 /* customCell.m */; };
+		C9BDF88B17EDAB6B00403760 /* customCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9BDF88917EDAB6B00403760 /* customCell.xib */; };
+		C9BDF88E17EDBAFE00403760 /* mydatabase.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = C9BDF88D17EDBAFE00403760 /* mydatabase.sqlite */; };
+		C9BDF89417EDC13000403760 /* Closed-Sign.png in Resources */ = {isa = PBXBuildFile; fileRef = C9BDF89317EDC13000403760 /* Closed-Sign.png */; };
+		C9BE35FD17F2A73600655B46 /* exit-closed-symbol-hi.png in Resources */ = {isa = PBXBuildFile; fileRef = C9BE35FC17F2A73600655B46 /* exit-closed-symbol-hi.png */; };
+		C9C1CA1417ED763A005BB02F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9C1CA1317ED763A005BB02F /* UIKit.framework */; };
+		C9C1CA1617ED763A005BB02F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9C1CA1517ED763A005BB02F /* Foundation.framework */; };
+		C9C1CA1817ED763A005BB02F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9C1CA1717ED763A005BB02F /* CoreGraphics.framework */; };
+		C9C1CA1E17ED763A005BB02F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C9C1CA1C17ED763A005BB02F /* InfoPlist.strings */; };
+		C9C1CA2017ED763A005BB02F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C1CA1F17ED763A005BB02F /* main.m */; };
+		C9C1CA2417ED763A005BB02F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C1CA2317ED763A005BB02F /* AppDelegate.m */; };
+		C9C1CA2617ED763A005BB02F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C9C1CA2517ED763A005BB02F /* Default.png */; };
+		C9C1CA2817ED763A005BB02F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C9C1CA2717ED763A005BB02F /* Default@2x.png */; };
+		C9C1CA2A17ED763A005BB02F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C9C1CA2917ED763A005BB02F /* Default-568h@2x.png */; };
+		C9C1CA2D17ED763A005BB02F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C1CA2C17ED763A005BB02F /* ViewController.m */; };
+		C9C1CA3017ED763B005BB02F /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9C1CA2E17ED763B005BB02F /* ViewController.xib */; };
+		C9C1CA3F17ED79AC005BB02F /* las-vegas-close-business.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C9C1CA3E17ED79AB005BB02F /* las-vegas-close-business.jpg */; };
+		C9C1CA5017ED7BE5005BB02F /* DetailsPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C1CA4E17ED7BE5005BB02F /* DetailsPageController.m */; };
+		C9C1CA5117ED7BE5005BB02F /* DetailsPageController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9C1CA4F17ED7BE5005BB02F /* DetailsPageController.xib */; };
+		C9C1CA5817ED7FE4005BB02F /* ClosedCompanyInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C1CA5717ED7FE4005BB02F /* ClosedCompanyInfo.m */; };
+		C9C1CA5B17ED8037005BB02F /* ClosedCompanyDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C1CA5A17ED8037005BB02F /* ClosedCompanyDatabase.m */; };
+		C9C1CA6117ED9AB1005BB02F /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C9C1CA6017ED9AB1005BB02F /* libsqlite3.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C9BDF88717EDAB6B00403760 /* customCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = customCell.h; sourceTree = "<group>"; };
+		C9BDF88817EDAB6B00403760 /* customCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = customCell.m; sourceTree = "<group>"; };
+		C9BDF88917EDAB6B00403760 /* customCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = customCell.xib; sourceTree = "<group>"; };
+		C9BDF88D17EDBAFE00403760 /* mydatabase.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = mydatabase.sqlite; sourceTree = "<group>"; };
+		C9BDF89317EDC13000403760 /* Closed-Sign.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Closed-Sign.png"; sourceTree = "<group>"; };
+		C9BE35FC17F2A73600655B46 /* exit-closed-symbol-hi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "exit-closed-symbol-hi.png"; sourceTree = "<group>"; };
+		C9C1CA0F17ED763A005BB02F /* databaseConnecivity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = databaseConnecivity.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9C1CA1317ED763A005BB02F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C9C1CA1517ED763A005BB02F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C9C1CA1717ED763A005BB02F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C9C1CA1B17ED763A005BB02F /* databaseConnecivity-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "databaseConnecivity-Info.plist"; sourceTree = "<group>"; };
+		C9C1CA1D17ED763A005BB02F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C9C1CA1F17ED763A005BB02F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C9C1CA2117ED763A005BB02F /* databaseConnecivity-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "databaseConnecivity-Prefix.pch"; sourceTree = "<group>"; };
+		C9C1CA2217ED763A005BB02F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C9C1CA2317ED763A005BB02F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C9C1CA2517ED763A005BB02F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C9C1CA2717ED763A005BB02F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		C9C1CA2917ED763A005BB02F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C9C1CA2B17ED763A005BB02F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C9C1CA2C17ED763A005BB02F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C9C1CA2F17ED763B005BB02F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		C9C1CA3E17ED79AB005BB02F /* las-vegas-close-business.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "las-vegas-close-business.jpg"; sourceTree = "<group>"; };
+		C9C1CA4D17ED7BE5005BB02F /* DetailsPageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailsPageController.h; sourceTree = "<group>"; };
+		C9C1CA4E17ED7BE5005BB02F /* DetailsPageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailsPageController.m; sourceTree = "<group>"; };
+		C9C1CA4F17ED7BE5005BB02F /* DetailsPageController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailsPageController.xib; sourceTree = "<group>"; };
+		C9C1CA5617ED7FE4005BB02F /* ClosedCompanyInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClosedCompanyInfo.h; sourceTree = "<group>"; };
+		C9C1CA5717ED7FE4005BB02F /* ClosedCompanyInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClosedCompanyInfo.m; sourceTree = "<group>"; };
+		C9C1CA5917ED8037005BB02F /* ClosedCompanyDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ClosedCompanyDatabase.h; path = ../ClosedCompanyDatabase.h; sourceTree = "<group>"; };
+		C9C1CA5A17ED8037005BB02F /* ClosedCompanyDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 5; lastKnownFileType = sourcecode.c.objc; name = ClosedCompanyDatabase.m; path = ../ClosedCompanyDatabase.m; sourceTree = "<group>"; };
+		C9C1CA6017ED9AB1005BB02F /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9C1CA0C17ED763A005BB02F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9C1CA6117ED9AB1005BB02F /* libsqlite3.dylib in Frameworks */,
+				C9C1CA1417ED763A005BB02F /* UIKit.framework in Frameworks */,
+				C9C1CA1617ED763A005BB02F /* Foundation.framework in Frameworks */,
+				C9C1CA1817ED763A005BB02F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C9C1CA0417ED763A005BB02F = {
+			isa = PBXGroup;
+			children = (
+				C9BDF88D17EDBAFE00403760 /* mydatabase.sqlite */,
+				C9C1CA1917ED763A005BB02F /* databaseConnecivity */,
+				C9C1CA1217ED763A005BB02F /* Frameworks */,
+				C9C1CA1017ED763A005BB02F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C9C1CA1017ED763A005BB02F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9C1CA0F17ED763A005BB02F /* databaseConnecivity.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9C1CA1217ED763A005BB02F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9C1CA6017ED9AB1005BB02F /* libsqlite3.dylib */,
+				C9C1CA1317ED763A005BB02F /* UIKit.framework */,
+				C9C1CA1517ED763A005BB02F /* Foundation.framework */,
+				C9C1CA1717ED763A005BB02F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9C1CA1917ED763A005BB02F /* databaseConnecivity */ = {
+			isa = PBXGroup;
+			children = (
+				C9C1CA5217ED7BF0005BB02F /* View */,
+				C9C1CA5317ED7BFA005BB02F /* Model */,
+				C9C1CA5417ED7C03005BB02F /* Controller */,
+				C9C1CA5517ED7C10005BB02F /* Images */,
+				C9C1CA1A17ED763A005BB02F /* Supporting Files */,
+			);
+			path = databaseConnecivity;
+			sourceTree = "<group>";
+		};
+		C9C1CA1A17ED763A005BB02F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9C1CA1B17ED763A005BB02F /* databaseConnecivity-Info.plist */,
+				C9C1CA1C17ED763A005BB02F /* InfoPlist.strings */,
+				C9C1CA1F17ED763A005BB02F /* main.m */,
+				C9C1CA2117ED763A005BB02F /* databaseConnecivity-Prefix.pch */,
+				C9C1CA2517ED763A005BB02F /* Default.png */,
+				C9C1CA2717ED763A005BB02F /* Default@2x.png */,
+				C9C1CA2917ED763A005BB02F /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C9C1CA5217ED7BF0005BB02F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C9BDF88917EDAB6B00403760 /* customCell.xib */,
+				C9C1CA2E17ED763B005BB02F /* ViewController.xib */,
+				C9C1CA4F17ED7BE5005BB02F /* DetailsPageController.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		C9C1CA5317ED7BFA005BB02F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C9C1CA2217ED763A005BB02F /* AppDelegate.h */,
+				C9BDF88717EDAB6B00403760 /* customCell.h */,
+				C9C1CA2B17ED763A005BB02F /* ViewController.h */,
+				C9C1CA4D17ED7BE5005BB02F /* DetailsPageController.h */,
+				C9C1CA5617ED7FE4005BB02F /* ClosedCompanyInfo.h */,
+				C9C1CA5917ED8037005BB02F /* ClosedCompanyDatabase.h */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		C9C1CA5417ED7C03005BB02F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C9C1CA2317ED763A005BB02F /* AppDelegate.m */,
+				C9BDF88817EDAB6B00403760 /* customCell.m */,
+				C9C1CA2C17ED763A005BB02F /* ViewController.m */,
+				C9C1CA4E17ED7BE5005BB02F /* DetailsPageController.m */,
+				C9C1CA5717ED7FE4005BB02F /* ClosedCompanyInfo.m */,
+				C9C1CA5A17ED8037005BB02F /* ClosedCompanyDatabase.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		C9C1CA5517ED7C10005BB02F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C9BE35FC17F2A73600655B46 /* exit-closed-symbol-hi.png */,
+				C9BDF89317EDC13000403760 /* Closed-Sign.png */,
+				C9C1CA3E17ED79AB005BB02F /* las-vegas-close-business.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9C1CA0E17ED763A005BB02F /* databaseConnecivity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9C1CA3317ED763B005BB02F /* Build configuration list for PBXNativeTarget "databaseConnecivity" */;
+			buildPhases = (
+				C9C1CA0B17ED763A005BB02F /* Sources */,
+				C9C1CA0C17ED763A005BB02F /* Frameworks */,
+				C9C1CA0D17ED763A005BB02F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = databaseConnecivity;
+			productName = databaseConnecivity;
+			productReference = C9C1CA0F17ED763A005BB02F /* databaseConnecivity.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9C1CA0617ED763A005BB02F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = c35;
+			};
+			buildConfigurationList = C9C1CA0917ED763A005BB02F /* Build configuration list for PBXProject "databaseConnecivity" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C9C1CA0417ED763A005BB02F;
+			productRefGroup = C9C1CA1017ED763A005BB02F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9C1CA0E17ED763A005BB02F /* databaseConnecivity */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9C1CA0D17ED763A005BB02F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9C1CA1E17ED763A005BB02F /* InfoPlist.strings in Resources */,
+				C9C1CA2617ED763A005BB02F /* Default.png in Resources */,
+				C9C1CA2817ED763A005BB02F /* Default@2x.png in Resources */,
+				C9C1CA2A17ED763A005BB02F /* Default-568h@2x.png in Resources */,
+				C9C1CA3017ED763B005BB02F /* ViewController.xib in Resources */,
+				C9C1CA3F17ED79AC005BB02F /* las-vegas-close-business.jpg in Resources */,
+				C9C1CA5117ED7BE5005BB02F /* DetailsPageController.xib in Resources */,
+				C9BDF88B17EDAB6B00403760 /* customCell.xib in Resources */,
+				C9BDF88E17EDBAFE00403760 /* mydatabase.sqlite in Resources */,
+				C9BDF89417EDC13000403760 /* Closed-Sign.png in Resources */,
+				C9BE35FD17F2A73600655B46 /* exit-closed-symbol-hi.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9C1CA0B17ED763A005BB02F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9C1CA2017ED763A005BB02F /* main.m in Sources */,
+				C9C1CA2417ED763A005BB02F /* AppDelegate.m in Sources */,
+				C9C1CA2D17ED763A005BB02F /* ViewController.m in Sources */,
+				C9C1CA5017ED7BE5005BB02F /* DetailsPageController.m in Sources */,
+				C9C1CA5817ED7FE4005BB02F /* ClosedCompanyInfo.m in Sources */,
+				C9C1CA5B17ED8037005BB02F /* ClosedCompanyDatabase.m in Sources */,
+				C9BDF88A17EDAB6B00403760 /* customCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C9C1CA1C17ED763A005BB02F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9C1CA1D17ED763A005BB02F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C9C1CA2E17ED763B005BB02F /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9C1CA2F17ED763B005BB02F /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C9C1CA3117ED763B005BB02F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C9C1CA3217ED763B005BB02F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C9C1CA3417ED763B005BB02F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "databaseConnecivity/databaseConnecivity-Prefix.pch";
+				INFOPLIST_FILE = "databaseConnecivity/databaseConnecivity-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C9C1CA3517ED763B005BB02F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "databaseConnecivity/databaseConnecivity-Prefix.pch";
+				INFOPLIST_FILE = "databaseConnecivity/databaseConnecivity-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9C1CA0917ED763A005BB02F /* Build configuration list for PBXProject "databaseConnecivity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9C1CA3117ED763B005BB02F /* Debug */,
+				C9C1CA3217ED763B005BB02F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9C1CA3317ED763B005BB02F /* Build configuration list for PBXNativeTarget "databaseConnecivity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9C1CA3417ED763B005BB02F /* Debug */,
+				C9C1CA3517ED763B005BB02F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9C1CA0617ED763A005BB02F /* Project object */;
+}
