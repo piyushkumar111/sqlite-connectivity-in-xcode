@@ -46,8 +46,8 @@
 		C9C1CA1D17ED763A005BB02F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C9C1CA1F17ED763A005BB02F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C9C1CA2117ED763A005BB02F /* databaseConnecivity-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "databaseConnecivity-Prefix.pch"; sourceTree = "<group>"; };
-		C9C1CA2217ED763A005BB02F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		C9C1CA2317ED763A005BB02F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C9C1CA2217ED763A005BB02F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = databaseConnecivity/AppDelegate.h; sourceTree = "<group>"; };
+		C9C1CA2317ED763A005BB02F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = databaseConnecivity/AppDelegate.m; sourceTree = "<group>"; };
 		C9C1CA2517ED763A005BB02F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		C9C1CA2717ED763A005BB02F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		C9C1CA2917ED763A005BB02F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
@@ -80,10 +80,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1386CAD51C20B67500048BE9 /* Custom Class */ = {
+			isa = PBXGroup;
+			children = (
+				C9BDF88717EDAB6B00403760 /* customCell.h */,
+				C9BDF88817EDAB6B00403760 /* customCell.m */,
+			);
+			name = "Custom Class";
+			sourceTree = "<group>";
+		};
 		C9C1CA0417ED763A005BB02F = {
 			isa = PBXGroup;
 			children = (
 				C9BDF88D17EDBAFE00403760 /* mydatabase.sqlite */,
+				C9C1CA2217ED763A005BB02F /* AppDelegate.h */,
+				C9C1CA2317ED763A005BB02F /* AppDelegate.m */,
 				C9C1CA1917ED763A005BB02F /* databaseConnecivity */,
 				C9C1CA1217ED763A005BB02F /* Frameworks */,
 				C9C1CA1017ED763A005BB02F /* Products */,
@@ -148,12 +159,7 @@
 		C9C1CA5317ED7BFA005BB02F /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				C9C1CA2217ED763A005BB02F /* AppDelegate.h */,
-				C9BDF88717EDAB6B00403760 /* customCell.h */,
-				C9C1CA2B17ED763A005BB02F /* ViewController.h */,
-				C9C1CA4D17ED7BE5005BB02F /* DetailsPageController.h */,
-				C9C1CA5617ED7FE4005BB02F /* ClosedCompanyInfo.h */,
-				C9C1CA5917ED8037005BB02F /* ClosedCompanyDatabase.h */,
+				1386CAD51C20B67500048BE9 /* Custom Class */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -161,11 +167,13 @@
 		C9C1CA5417ED7C03005BB02F /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				C9C1CA2317ED763A005BB02F /* AppDelegate.m */,
-				C9BDF88817EDAB6B00403760 /* customCell.m */,
+				C9C1CA2B17ED763A005BB02F /* ViewController.h */,
 				C9C1CA2C17ED763A005BB02F /* ViewController.m */,
+				C9C1CA4D17ED7BE5005BB02F /* DetailsPageController.h */,
 				C9C1CA4E17ED7BE5005BB02F /* DetailsPageController.m */,
+				C9C1CA5617ED7FE4005BB02F /* ClosedCompanyInfo.h */,
 				C9C1CA5717ED7FE4005BB02F /* ClosedCompanyInfo.m */,
+				C9C1CA5917ED8037005BB02F /* ClosedCompanyDatabase.h */,
 				C9C1CA5A17ED8037005BB02F /* ClosedCompanyDatabase.m */,
 			);
 			name = Controller;
